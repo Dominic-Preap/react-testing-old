@@ -1,0 +1,101 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --setupTestFrameworkScriptFile=./config/setupTest.js",
+    "test:no-watch": "yarn run test --watchAll=false",
+    "test:coverage": "yarn run test --watchAll=false --coverage",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public",
+    "precodegen": "rimraf src/HyreCar/types/ && apollo service:download",
+    "codegen": "apollo client:codegen --target=typescript --watch --outputFlat src/HyreCar/types"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.0.1",
+    "@material-ui/icons": "^4.0.1",
+    "@material-ui/styles": "^4.0.1",
+    "apollo-boost": "^0.3.1",
+    "formik": "^1.5.7",
+    "graphql": "^14.2.1",
+    "lodash": "^4.17.11",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.5",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.0",
+    "react-select": "^3.0.4",
+    "recharts": "^1.6.2",
+    "styled-components": "^4.2.0",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@storybook/addon-a11y": "^5.1.3",
+    "@storybook/addon-actions": "^5.1.3",
+    "@storybook/addon-centered": "^5.1.3",
+    "@storybook/addon-info": "^5.1.3",
+    "@storybook/addon-knobs": "^5.1.3",
+    "@storybook/addon-links": "^5.1.3",
+    "@storybook/addon-notes": "^5.1.3",
+    "@storybook/addon-viewport": "^5.1.3",
+    "@storybook/addons": "^5.1.3",
+    "@storybook/react": "^5.1.3",
+    "@types/enzyme": "^3.9.1",
+    "@types/jest": "^24.0.12",
+    "@types/lodash": "^4.14.134",
+    "@types/node": "^11.13.9",
+    "@types/react": "^16.8.15",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-router-dom": "^4.3.2",
+    "@types/react-select": "^2.0.19",
+    "@types/react-test-renderer": "^16.8.1",
+    "@types/recharts": "^1.1.16",
+    "@types/storybook__addon-actions": "^3.4.3",
+    "@types/storybook__addon-info": "^4.1.2",
+    "@types/storybook__addon-knobs": "^5.0.1",
+    "@types/storybook__addon-links": "^3.3.5",
+    "@types/storybook__react": "^4.0.2",
+    "@types/styled-components": "^4.1.14",
+    "@types/yup": "^0.26.17",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.5",
+    "chai": "^4.2.0",
+    "dotenv": "^8.0.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "jest": "^24.7.1",
+    "jest-styled-components": "^6.3.1",
+    "react-docgen-typescript-loader": "^3.1.0",
+    "react-test-renderer": "^16.8.6",
+    "rimraf": "^2.6.3",
+    "storybook-addon-material-ui": "^0.9.0-alpha.19",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.4.5"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!<rootDir>/node_modules/",
+      "!<rootDir>/**/__stories__/**/*",
+      "!<rootDir>/**/*.stories.{ts,tsx}"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

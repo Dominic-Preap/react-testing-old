@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner component should render properly 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.c1 {
+  -webkit-animation: iECmZH 0.5s linear infinite;
+  animation: iECmZH 0.5s linear infinite;
+  border-radius: 100%;
+  border-top-color: #009cec !important;
+  border: 6px solid #eeeeee;
+  height: 45px;
+  width: 45px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    color="#009cec"
+  />
+</div>
+`;

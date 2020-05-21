@@ -1,0 +1,30 @@
+{
+  "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "curly": false,
+    "interface-name": false,
+    "jsx-no-lambda": false,
+    "jsx-boolean-value": false,
+    "object-literal-sort-keys": false,
+    "no-implicit-dependencies": [
+      true,
+      "dev",
+      [
+        "HyreCar",
+        "assets",
+        "components",
+        "containers",
+        "providers",
+        "queries",
+        "services",
+        "stores",
+        "tests",
+        "types",
+        "utils"
+      ]
+    ],
+    "no-submodule-imports": false,
+    "member-access": false,
+    "member-ordering": [true, "public-before-private", "static-before-instance", "variables-before-functions"]
+  }
+}

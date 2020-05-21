@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chimes component should render properly 1`] = `
+.c0 {
+  margin: 100px auto;
+  text-align: center;
+}
+
+.c12 {
+  margin-top: 40px;
+}
+
+.c1 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  width: 234px;
+}
+
+.c2 {
+  background-clip: padding-box;
+  background: rgb(0,157,236);
+  border-radius: 1063px;
+  display: inline-block;
+  height: 64px;
+  margin: 0 5.5px;
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  width: 5.5px;
+  -webkit-animation: ehCYUl 1.45s 0.07s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+  animation: ehCYUl 1.45s 0.07s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+}
+
+.c3 {
+  background-clip: padding-box;
+  background: rgb(0,157,236);
+  border-radius: 1063px;
+  display: inline-block;
+  height: 64px;
+  margin: 0 5.5px;
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  width: 5.5px;
+  -webkit-animation: ehCYUl 1.45s 0.15000000000000002s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+  animation: ehCYUl 1.45s 0.15000000000000002s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+}
+
+.c4 {
+  background-clip: padding-box;
+  background: rgb(0,157,236);
+  border-radius: 1063px;
+  display: inline-block;
+  height: 64px;
+  margin: 0 5.5px;
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  width: 5.5px;
+  -webkit-animation: ehCYUl 1.45s 0.23s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+  animation: ehCYUl 1.45s 0.23s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+}
+
+.c5 {
+  background-clip: padding-box;
+  background: rgb(0,157,236);
+  border-radius: 1063px;
+  display: inline-block;
+  height: 64px;
+  margin: 0 5.5px;
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  width: 5.5px;
+  -webkit-animation: ehCYUl 1.45s 0.31s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+  animation: ehCYUl 1.45s 0.31s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+}
+
+.c6 {
+  background-clip: padding-box;
+  background: rgb(0,157,236);
+  border-radius: 1063px;
+  display: inline-block;
+  height: 64px;
+  margin: 0 5.5px;
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  width: 5.5px;
+  -webkit-animation: ehCYUl 1.45s 0.39s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+  animation: ehCYUl 1.45s 0.39s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+}
+
+.c7 {
+  background-clip: padding-box;
+  background: rgb(0,157,236);
+  border-radius: 1063px;
+  display: inline-block;
+  height: 64px;
+  margin: 0 5.5px;
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  width: 5.5px;
+  -webkit-animation: ehCYUl 1.45s 0.47000000000000003s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+  animation: ehCYUl 1.45s 0.47000000000000003s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+}
+
+.c8 {
+  background-clip: padding-box;
+  background: rgb(0,157,236);
+  border-radius: 1063px;
+  display: inline-block;
+  height: 64px;
+  margin: 0 5.5px;
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  width: 5.5px;
+  -webkit-animation: ehCYUl 1.45s 0.55s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+  animation: ehCYUl 1.45s 0.55s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+}
+
+.c9 {
+  background-clip: padding-box;
+  background: rgb(0,157,236);
+  border-radius: 1063px;
+  display: inline-block;
+  height: 64px;
+  margin: 0 5.5px;
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  width: 5.5px;
+  -webkit-animation: ehCYUl 1.45s 0.6300000000000001s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+  animation: ehCYUl 1.45s 0.6300000000000001s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+}
+
+.c10 {
+  background-clip: padding-box;
+  background: rgb(0,157,236);
+  border-radius: 1063px;
+  display: inline-block;
+  height: 64px;
+  margin: 0 5.5px;
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  width: 5.5px;
+  -webkit-animation: ehCYUl 1.45s 0.71s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+  animation: ehCYUl 1.45s 0.71s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+}
+
+.c11 {
+  background-clip: padding-box;
+  background: rgb(0,157,236);
+  border-radius: 1063px;
+  display: inline-block;
+  height: 64px;
+  margin: 0 5.5px;
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  width: 5.5px;
+  -webkit-animation: ehCYUl 1.45s 0.79s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+  animation: ehCYUl 1.45s 0.79s infinite cubic-bezier(0.005,0.56,0.58,1.59);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+      value={0}
+    />
+    <span
+      className="c3"
+      value={1}
+    />
+    <span
+      className="c4"
+      value={2}
+    />
+    <span
+      className="c5"
+      value={3}
+    />
+    <span
+      className="c6"
+      value={4}
+    />
+    <span
+      className="c7"
+      value={5}
+    />
+    <span
+      className="c8"
+      value={6}
+    />
+    <span
+      className="c9"
+      value={7}
+    />
+    <span
+      className="c10"
+      value={8}
+    />
+    <span
+      className="c11"
+      value={9}
+    />
+  </div>
+  <div
+    className="c12"
+  >
+    <h5
+      className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+    >
+      ...Loading Results
+    </h5>
+    <p
+      className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+    >
+      Please do not refresh the page
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,31 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "build": true,
+    "dist": true,
+    "node_modules": true
+  },
+  "typescriptHero.imports.grouping": [
+    "Plains",
+    "/^react/",
+    "Modules",
+    "Workspace"
+  ],
+  "cSpell.words": [
+    "Formik",
+    "Lifecycle",
+    "Scrollable",
+    "Unmount",
+    "clsx",
+    "hyrecar",
+    "mobx",
+    "pathnames",
+    "promisify"
+  ],
+  "workbench.iconTheme": "vscode-icons"
+}

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shimmer component should render properly 1`] = `
+.c0 {
+  background: #f6f7f8;
+  background-image: linear-gradient(to right,#f6f7f8 0%,#edeef1 20%,#f6f7f8 40%,#f6f7f8 100%);
+  background-repeat: no-repeat;
+  background-size: 800px 300px;
+  display: inline-block;
+  position: relative;
+  -webkit-animation: iiNPHT 1s linear infinite forwards;
+  animation: iiNPHT 1s linear infinite forwards;
+  border-radius: 0;
+}
+
+<div
+  className="c0"
+/>
+`;
